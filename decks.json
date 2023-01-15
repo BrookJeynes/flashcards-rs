@@ -1,0 +1,30 @@
+{
+    "decks": [
+        {
+            "title": "171 Most Common Irregular German Verbs! With sentences!",
+            "cards": [
+                {
+                    "front": "can",
+                    "back": "können (can)\n\nPräsens: Ich kann dir morgen helfen, wenn du willst. I can help you tomorrow if you want. (Usually used with Präteritum in the past)"
+                },
+                {
+                    "front": "to congratulate",
+                    "back": "gratulieren (to congratulate)\n\nPräsens: Ich gratuliere ihr morgen. I will congratulate her tomorrow.\nPerfekt: Wir haben ihr schon gratuliert. We have already congratulated her."
+                },
+                {
+                    "front": "to book",
+                    "back": "eservieren (to book)\n\nPräsens: Wenn du mitkommst, reserviere ich ein Doppelzimmer. If you come along, I’ll book a double room.\nPerfekt: Ich habe in deinem Lieblingsrestaurant reserviert. I booked [a table] in your favorite restaurant."
+                }
+            ]
+        },
+        {
+            "title": "Test deck 2",
+            "cards": [
+                {
+                    "front": "This is the front of a card in the second deck",
+                    "back": "This is the back of a card in the second deck"
+                }
+            ]
+        }
+    ]
+}

@@ -11,7 +11,7 @@ Flashcards-rs is a simple application for viewing flashcards within the terminal
 ## Features
 
 - Review your flashcards within your terminal
-- Write decks/flashcards in JSON and import them within the application (wip)
+- Write decks/flashcards in JSON and import them within the application
 
 
 ## Run Locally

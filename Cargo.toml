@@ -9,3 +9,5 @@ edition = "2021"
 tui = "0.19.0"                    # A library to build rich terminal user interfaces or dashboards 
 crossterm = "0.25.0"            # A crossplatform terminal library for manipulating terminals.
 clipboard = "0.5.0"             # rust-clipboard is a cross-platform library for getting and setting the contents of the OS-level…
+serde_json = "1.0.91"                # A JSON serialization file format
+serde = { version = "1.0.152", features = ["derive"] }                       # A generic serialization/deserialization framework
