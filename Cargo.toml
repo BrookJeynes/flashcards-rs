@@ -11,3 +11,6 @@ crossterm = "0.25.0"            # A crossplatform terminal library for manipulat
 clipboard = "0.5.0"             # rust-clipboard is a cross-platform library for getting and setting the contents of the OS-level…
 serde_json = "1.0.91"                # A JSON serialization file format
 serde = { version = "1.0.152", features = ["derive"] }                       # A generic serialization/deserialization framework
+
+rand = "0.8.5"              # Random number generators and other randomness functionality. 
+shuffle = "0.1.7"                # Implementation of various shuffling algorithms over slices.

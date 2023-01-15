@@ -1,3 +1,4 @@
+#[derive(Default, Clone)]
 pub struct FlashCard {
     pub flipped: bool,
     pub front: String,

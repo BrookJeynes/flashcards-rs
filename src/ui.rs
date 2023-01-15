@@ -138,7 +138,7 @@ pub fn ui<B: Backend>(f: &mut Frame<B>, app_state: &mut AppState) {
 
             // Render footer
             let decks_view_footer = Paragraph::new(
-                "SPACE: Reveal card back | h/Left arrow: Previous card | l/Right arrow: Next card  | ESC: Back to decks view | q: Exit application",
+                "SPACE: Reveal card back | h/Left arrow: Previous card | l/Right arrow: Next card | r: Randomise cards | ESC: Back to decks view | q: Exit application",
             )
             .alignment(Alignment::Center)
             .block(Block::default().borders(Borders::ALL));

@@ -1,5 +1,8 @@
 use crate::{stateful_list::StatefulList, FlashCard};
 
+use shuffle::irs::Irs;
+use shuffle::shuffler::Shuffler;
+
 pub struct Deck {
     pub title: String,
     pub cards: StatefulList<FlashCard>,
@@ -13,9 +16,18 @@ impl Deck {
         }
     }
 
-    pub fn previous(&mut self) { if self.current_card != 0 {
+    pub fn previous(&mut self) {
+        if self.current_card != 0 {
             self.current_card -= 1;
         }
+    }
+
+    pub fn shuffle(&mut self) {
+        let mut rng = rand::thread_rng();
+        let mut irs = Irs::default();
+
+        // Todo: remove unwrap
+        irs.shuffle(&mut self.cards.items, &mut rng).unwrap();
     }
 
     /// Flips all cards in a deck to be hidden
@@ -27,4 +39,3 @@ impl Deck {
         }
     }
 }
-

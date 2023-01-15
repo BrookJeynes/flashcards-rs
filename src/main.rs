@@ -218,6 +218,15 @@ fn run_app<B: Backend>(
 
                         app_state.decks.items[selected_deck].previous();
                     }
+                    KeyCode::Char('r') => {
+                        let selected_deck = app_state
+                            .decks
+                            .selected()
+                            .expect("Deck is already selected by this point");
+
+                        app_state.decks.items[selected_deck].shuffle();
+
+                    }
                     KeyCode::Char(' ') => {
                         if let Some(deck_index) = app_state.decks.selected() {
                             let card_index = app_state.decks.items[deck_index].current_card;
