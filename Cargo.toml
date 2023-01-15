@@ -1,0 +1,11 @@
+[package]
+name = "flashcards-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.19.0"                    # A library to build rich terminal user interfaces or dashboards 
+crossterm = "0.25.0"            # A crossplatform terminal library for manipulating terminals.
+clipboard = "0.5.0"             # rust-clipboard is a cross-platform library for getting and setting the contents of the OS-level…
